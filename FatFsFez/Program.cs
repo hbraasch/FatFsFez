@@ -32,14 +32,14 @@ namespace FatFsFez
             try
             {
                 MountDrive();
-
+                DeleteFileExample();
                 CreateDirectoriesExample();
                 CreateFileExample();
                 ReadFileExample();
                 RenameFileExample();
                 FileExistsExample();
                 ListDirectoryExample();
-                DeleteFileExample();
+
                 GetFreeSpaceExample();
 
                 Debug.WriteLine("Done");
